@@ -1,0 +1,78 @@
+.inputfieldwith100by100width {
+  width: 100% !important;
+}
+
+.input-field,
+.input-area {
+  width: 308px;
+  height: 3rem;
+  text-decoration: none;
+  outline: none;
+  background: #ffffff;
+  border: 1.5px solid #1a73e8;
+  border-radius: 6px;
+  padding-left: 20px;
+  font-size: 13px;
+  font-family: "Montserrat", sans-serif;
+}
+.input-area {
+  max-width: 100%;
+  min-width: 100%;
+  min-height: 10rem;
+  max-height: 10rem;
+  padding-top: 10px;
+}
+.input-field:focus,
+.input-area:focus {
+  border: 3px solid #6eabfa;
+}
+.submit {
+  background: linear-gradient(91.53deg, #752deb -23.93%, #826eea 72.14%);
+  border-radius: 6px;
+  padding-left: 0;
+  color: #fff;
+  border: none;
+  font-size: 1.3rem;
+  font-weight: 600;
+  outline: none;
+  transition: all 0.1s ease;
+}
+.submit:hover {
+  background: linear-gradient(91.53deg, #752deb -23.93%, #8a74fa 72.14%);
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+/* .pwd-eye {
+  display: inline-block;
+  position: relative;
+  height: 0;
+}
+.pwd-eye i {
+  position: relative;
+  top: -68px;
+  left: 86%;
+  cursor: pointer;
+  padding: 1rem 0.8rem;
+} */
+.password-area {
+  display: flex;
+}
+
+@media all and (max-width: 950px) {
+  .input-field {
+    width: 292px;
+    height: 2.6rem;
+  }
+}
+@media all and (max-width: 650px) {
+  .input-field {
+    width: 252px;
+    height: 2.4rem;
+  }
+}
+@media all and (max-width: 450px) {
+  .input-field {
+    width: 212px;
+    height: 2.2rem;
+  }
+}

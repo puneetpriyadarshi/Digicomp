@@ -1,0 +1,16 @@
+.grand-3-foot-social {
+  margin-top: 20px;
+  padding: 0 15%;
+  display: flex;
+  justify-content: flex-start;
+  a {
+    color: white;
+    font-size: 24px;
+    padding-right: 21px;
+    transition: all 0.2s ease;
+    &:hover {
+      font-size: 27px;
+      color: #b6bec5;
+    }
+  }
+}

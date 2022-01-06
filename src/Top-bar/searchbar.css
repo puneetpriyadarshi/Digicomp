@@ -1,0 +1,67 @@
+.searchbar {
+  position: relative;
+  width: 100%;
+}
+.geoloc,
+.searchbox,
+.submitbtn {
+  box-shadow: 0 7px 5px -3px rgba(0, 0, 0, 0.07);
+}
+.searchbox {
+  width: 80%;
+  height: 3rem;
+  background: #ffffff;
+  text-decoration: none;
+  border: none;
+  border-radius: 0 33px 33px 0;
+  padding: 0 3.2rem 0 1%;
+}
+
+.geoloc {
+  width: 20%;
+  height: 3rem;
+  text-decoration: none;
+  background: #fff;
+  color: #32454d;
+  border-radius: 33px 0 0 33px;
+  border: none;
+  cursor: pointer;
+}
+.geoloc:after {
+  content: "";
+  position: absolute;
+  top: 9px;
+  left: 18%;
+  display: inline-block;
+  width: 1px;
+  height: 2rem;
+  background-color: rgba(62, 104, 120, 0.48);
+}
+
+.fa-map-marker-alt {
+  color: #dc1919;
+}
+
+.submitbtn {
+  width: 3.1rem;
+  height: 3.1rem;
+  text-decoration: none;
+  border-radius: 50%;
+  background: linear-gradient(125.66deg, #8140ff 9.01%, #a68efe 122.29%);
+  color: #fff;
+  border: none;
+  position: absolute;
+  top: -1px;
+  right: -1px;
+}
+
+.geoloc:focus,
+.submitbtn:focus,
+.searchbox:focus {
+  outline: none;
+}
+/* @media only screen and (max-width: 1079px) {
+  .searchbox {
+
+  }
+} */

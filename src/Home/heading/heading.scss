@@ -1,0 +1,19 @@
+.heading-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .title-home {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    color: #742ee9;
+    padding: 0 10px;
+  }
+  .dash-home {
+    width: 42px;
+    height: 4px;
+    background-color: #742ee9;
+  }
+}
